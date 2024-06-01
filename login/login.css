@@ -1,0 +1,150 @@
+* {
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right top, #3230308a, #0000008a), url('https://giselemilagros88.github.io/cac_movies_javaphp/assets/img/bg-register.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 97.4vh; /* Ajusta la altura al tamaño de la ventana */
+}
+
+/* HEADER LOGO */
+.header_login {
+    width: 20vw;
+    height: 3vh;
+    font-size: 1.3rem;
+    display: flex;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 2.6vh;
+    margin-left: 1vw;
+}
+
+.header_logo_link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* Registro */
+.main_login {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 30vw;
+    background-color: rgb(29, 26, 26);
+    margin: auto;
+    margin-top: 2.5vh;
+    border-radius: 5px;
+    
+    opacity: 0.5; /* Opacidad inicial */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra inicial */
+    animation: aparecer 1s forwards; /* Inicia la animación "aparecer" con duración de 1 segundo */
+
+}
+@keyframes aparecer {
+    from {
+        transform: scale(0.5); /* Escala inicial más pequeña */
+        opacity: 0.1; /* Opacidad inicial */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra inicial */
+    }
+    to {
+        transform: scale(1); /* Escala completa */
+        opacity: 1; /* Opacidad completa */
+        box-shadow: none; /* Quita la sombra */
+    }
+}
+
+.form_login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 27vh;
+    
+}
+
+.form_login input {
+    width: 22vw;
+    height: 3vh;
+    margin-top: 1.2vh;
+    margin-bottom: 1vh;
+    border-radius: 20px;
+    border: 2px solid #9f3647;
+    text-decoration: none;
+    outline: none;
+    padding: 0.7vh 1vw 0.7vh 1vw;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: var(--fondo-negro);
+}
+
+.form_login h1{
+    color: #ffffff;
+    /* padding: auto; */
+    width: 24vw;
+    font-size: 2.5rem;
+    margin-bottom: 1vh;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.form_login button {
+    background-color: #9f3647;   
+    width: 23.6vw;
+    height: 6vh;
+    margin-top: 1.2vh;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.form_login button:hover {
+    background-color: #c94b5c;
+}
+
+.form_login a {
+    color: grey;
+    text-decoration: none;
+    margin-top: 1vh;
+    /* width: 23vw; */
+    margin-right: auto;
+    margin-left: 3.2vw;
+    
+}
+
+:root {
+    --rojo: #9f3647;
+    --texto-blanco: #ffffff;
+    --fondo-negro: rgb(29, 26, 26);
+}
+
+
+@media screen and (max-width: 768px) {
+    .main_login {
+        width: 90vw; /* Cambiar el ancho del contenedor principal */
+    }
+
+    .form_login h1 {
+        font-size: 2rem; /* Reducir el tamaño de la fuente del encabezado */
+        width: 70vw; /* Cambiar el ancho del encabezado */
+    }
+
+    .form_login input, select{
+        width: 70vw; /* Cambiar el ancho de los inputs, selects y botón */
+        font-size: 1rem; /* Reducir el tamaño de la fuente */
+    }
+
+    .btn_login {
+        width: 73vw !important;
+    }
+    .form_login a {
+        margin-left: 8.2vw;
+    }
+}
