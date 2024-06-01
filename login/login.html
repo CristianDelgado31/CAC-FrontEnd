@@ -11,24 +11,23 @@
     <title>Iniciar Sesión</title>
 </head>
 <body>
-    <header class="header_login" >
+    <header class="header_login">
         <a href="../index.html" class="header_logo_link">
             <i class="fa-solid fa-film"></i>
             CAC-Movies
         </a>
     </header>
     <section class="main_login">
-        <form class="form_login">
+        <form class="form_login" id="loginForm">
             <h1>Iniciar Sesión</h1>
             <input type="email" name="email" id="email" placeholder="Email" required>
             <input type="password" name="password" id="password" placeholder="Contraseña" required>
-            <button class="btn_login" type="submit" onclick="validarCorreo()">Iniciar Sesión</button>
+            <button class="btn_login" type="submit">Iniciar Sesión</button>
             <a href="../register/register.html">Registrarse</a>
-
         </form>
     </section>
     
-    <script src="login.js"></script>
     <script src="https://kit.fontawesome.com/707464f25e.js" crossorigin="anonymous"></script>
+    <script src="login.js"></script>
 </body>
 </html>
