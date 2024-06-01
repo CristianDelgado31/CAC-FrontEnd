@@ -51,7 +51,7 @@ h1 {
 .main {
     background-image: 
         linear-gradient(to right top, #0000008a, #0000008a), 
-        url(/imgs/banner-bg.jpg);
+        url(imgs/banner-bg.jpg);
     height: 90vh;
     width: 99.1vw; /* esto estaba en 100vw (testeando limites) */
     background-size: cover;
