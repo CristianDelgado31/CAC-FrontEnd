@@ -6,4 +6,10 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         event.preventDefault();
         alert('Por favor, ingrese un correo electrónico válido.');
     }
+
+    const passwordInput = document.getElementById('password').value;
+    if (passwordInput.length == 0) {
+        event.preventDefault();
+        alert('Por favor, ingrese una contraseña.');
+    }
 });
