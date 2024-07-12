@@ -19,14 +19,14 @@
     </header>
     <main>
         <section class="main_register">
-            <form class="form_register">
+            <form class="form_register" id="registerForm">
                 <h1>Registro</h1>
                 <input type="text" name="nombre" id="nombre" placeholder="Nombre">
                 <input type="text" name="apellido" id="apellido" placeholder="Apellido">
                 <input type="email" name="email" id="email" placeholder="Email">
                 <input type="password" name="password" id="password" placeholder="Contraseña">
                 <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" placeholder="Fecha de nacimiento">
-                <select>
+                <select id="pais">
                     <option value="opcion1">País</option>
                     <option value="Argentina">Argentina</option>
                     <option value="Bolivia">Bolivia</option>
@@ -52,7 +52,7 @@
     </main>
 
 
-
+    <script src="register.js"></script>
 
     <script src="https://kit.fontawesome.com/707464f25e.js" crossorigin="anonymous"></script>
 </body>

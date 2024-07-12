@@ -130,11 +130,12 @@ h1 {
     font-size: 1.1rem;
  }
 
- .header_menu_login {
+ .header_menu_login, .header_menu_perfil, .header_menu_lista_usuarios, .api_peliculas {
     background: black;
     padding: 1vh;
     border-radius: 5px;
  }
+
 
  /*formulario de busqueda */
 .busqueda {
@@ -377,3 +378,24 @@ hr {
     padding: 1vh 1.1vw;
     border-radius: 5px
 }
+
+/* Botón api peliculas */
+
+button.api_peliculas {
+    background: black;
+    color: white;
+    padding: 1.2vh;
+    font-size: medium;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px; /* Ajusta el margen según sea necesario */
+}
+
+button.api_peliculas:hover {
+    background-color: #0056b3;
+}
+
+/* background: black;
+    padding: 1vh;
+    border-radius: 5px; */

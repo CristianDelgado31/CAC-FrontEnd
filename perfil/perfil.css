@@ -1,0 +1,140 @@
+/* perfil.css */
+
+* {
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right top, #3230308a, #0000008a), url('https://giselemilagros88.github.io/cac_movies_javaphp/assets/img/bg-register.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ajusta la altura al tamaño de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header_perfil {
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    font-size: 1.3rem;
+    margin-left: 0.5vw;
+}
+
+.header_logo_link {
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.header_logo_link i {
+    margin-right: 5px;
+}
+
+.profile-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-container h2 {
+    margin-bottom: 20px;
+}
+
+.profile-item {
+    margin-bottom: 10px;
+}
+
+.profile-item label {
+    font-weight: bold;
+}
+
+.logout-button,
+.modify-button,
+.delete-button {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.logout-button {
+    background-color: #0f0cc3;
+}
+
+.modify-button {
+    background-color: #bf9b18;
+}
+
+.delete-button {
+    background-color: #f44336;
+}
+
+.modify-button:hover {
+    background-color: #cbc331;
+}
+.delete-button:hover {
+    background-color: #f30c0c;
+}
+
+.logout-button:hover {
+    background-color: #0b3ad5;
+}
+
+/* MOdificar CSS */
+.modify-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.modify-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.save-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.save-button:hover {
+    background-color: #45a049;
+}
