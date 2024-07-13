@@ -4,7 +4,7 @@ function BuscarPeliculas() {
         method: 'GET',
         headers: {
             accept: 'application/json',
-            Authorization: 'AGREGAR_TOKEN_ACÁ'
+            Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlY2VjYmE0ZDlhODcwODZmZDdjNzAxNTYxMGNjYzk1OSIsIm5iZiI6MTcyMDc5OTk5MC4zNTEzMjIsInN1YiI6IjY2OTE0ZjdhMzllMzU4ZDdlNWVlNGUyZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.awi7fe01n_PMD0tXqekzg4aAma7UtcQFaQweskErLBY'
         }
     };
 
